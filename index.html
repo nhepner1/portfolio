@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="nickFolio">
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Nick Hepner</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-route.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.tpl.min.js"></script>
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-4">
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modules -->
+    <script src="app/app.module.js"></script>
+    <script src="app/app.routes.js"></script>
+
+
+    <!-- Controllers -->
+    <script src="app/components/home/homeController.js"></script>
+    <script src="app/components/profile/profileController.js"></script>
+    <script src="app/components/portfolio/portfolioController.js"></script>
+    <script src="app/components/references/referencesController.js"></script>
+    <script src="app/components/resume/resumeController.js"></script>
+    <script src="app/components/services/servicesController.js"></script>
+    <script src="app/components/skills/skillsController.js"></script>
+    <script src="app/components/contact/contactController.js"></script>
+
+    <!-- Services -->
+
+    <!-- Directives -->
+    <script src="app/shared/mainNav/mainNavDirective.js"></script>
+
+</body>
+</html>

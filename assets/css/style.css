@@ -1,0 +1,75 @@
+@import url('fonts/diner-skinny_regular_macroman/stylesheet.css');
+@import url('fonts/amatic/stylesheet.css');
+@import url('fonts/ostrich/stylesheet.css');
+@import url('fonts/roboto/roboto_condensed_macroman/stylesheet.css');
+@import url('fonts/roboto/roboto_medium_macroman/stylesheet.css');
+
+body {
+    /**
+    background: #e5e5e2 url('../img/nickfoliobg.png') no-repeat fixed left bottom;
+    /**/
+    font-size: 17px;
+    font-family: 'Verdana', 'Arial', 'sans-serif';
+    line-height: 27px;
+}
+
+.body-main {
+    margin-bottom: 70px;
+}
+
+.home-page {
+    text-align: center;
+}
+
+h1.site-title {
+    font-family: 'amatic', 'Arial', 'sans-serif';
+    font-size: 9em;
+}
+
+h1.title {
+    font-family: 'amatic', 'sans-serif';
+    font-size: 5em;
+}
+
+h2 {
+    font-family: "ostrich", 'sans-serif';
+    font-size: 2.5em;
+}
+
+h2.slogan {
+    font-family: "ostrich", 'sans-serif';
+    font-size: 5em;
+    margin-top: 20px;
+}
+
+h3.greeting {
+    margin-top: 100px;
+    font-size: 3em;
+    font-family: "amatic", 'Arial', 'sans-serif';
+}
+
+p {
+    margin: 0 0 27px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    font-family: 'roboto_condensedregular', 'sans-serif';
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 50px;
+    height: 50px;
+    padding: 0 30px;
+    font-size: 1.1em;
+}
+
+.margin-bottom-bump {
+    margin-bottom: 20px;
+}
